@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Filter_Main implements Welcome {
-    public static  void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws FileNotFoundException {
 
         /**
          * Nacitanie Zoznamu zakaznikov z csv suboru & spojenie s Objektom triedy Scanner
@@ -51,7 +51,6 @@ public class Filter_Main implements Welcome {
             int volba = vstupodUzivatela.nextInt();
 
 
-
             if (volba == 1) {
                 for (String zaznam : zoznamZakaznikov) {
 
@@ -63,9 +62,7 @@ public class Filter_Main implements Welcome {
 
                     }
                 }
-            }
-
-            else if (volba == 2) {
+            } else if (volba == 2) {
                 for (String zaznam : zoznamZakaznikov) {
 
                     if (zaznam.contains("internet")) {
@@ -76,8 +73,7 @@ public class Filter_Main implements Welcome {
 
                     }
                 }
-            }
-            else if (volba == 3) {
+            } else if (volba == 3) {
                 for (String zaznam : zoznamZakaznikov) {
 
                     if (zaznam.contains("-")) {
@@ -88,9 +84,7 @@ public class Filter_Main implements Welcome {
 
                     }
                 }
-            }
-
-            else if (volba == 4) {
+            } else if (volba == 4) {
                 for (String zaznam : zoznamZakaznikov) {
 
                     if (zaznam.contains("09")) {
@@ -101,27 +95,17 @@ public class Filter_Main implements Welcome {
 
                     }
                 }
-            }
-
-            else if (volba == 5) {
+            } else if (volba == 5) {
                 System.out.println("-> Ukoncujem Aplikaciu <-");
                 break;
-            }
-
-            else {
+            } else {
                 System.out.println("-> Nespravny Uzivatelsky Vstup <-");
             }
         }
 
 
-
-
-
-
-
-
     }
 
 
-
 }
+git
