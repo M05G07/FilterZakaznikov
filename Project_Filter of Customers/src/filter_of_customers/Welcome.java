@@ -12,5 +12,5 @@ public interface Welcome {
         System.out.println( " -> Zoznam zakaznikov s mobilnym cislom [pouzi volbu 4]");
         System.out.println( " -> Ukonci Aplikaciu [pouzi volbu 5]" + "\n");
         System.out.println("Vasa Volba: ");
-    }git
+    }
 }
